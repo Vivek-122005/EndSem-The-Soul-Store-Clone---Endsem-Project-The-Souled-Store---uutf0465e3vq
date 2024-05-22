@@ -43,7 +43,7 @@ const ProductCaroseul= ({title, products}) => {
 
   return (
     <div className="card">
-      <h1 className='font-bold text-3xl m-0 text-center	'>{title}</h1>
+      <h1 className='font-bold text-3xl m-0'>{title}</h1>
       <Carousel value={products} numVisible={4} numScroll={3} responsiveOptions={responsiveOptions} className="custom-carousel" circular
         autoplayInterval={3000} itemTemplate={ProductCard} />
     </div>

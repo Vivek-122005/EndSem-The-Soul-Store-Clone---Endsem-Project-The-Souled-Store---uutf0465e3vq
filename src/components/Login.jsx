@@ -28,7 +28,7 @@ const Login = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-80">
-        <h2 className="text-2xl font-bold mb-6 text-center">Login to Soul Store</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Login to Souled Store</h2>
         <div className="mb-4">
           <input
             type="email"
